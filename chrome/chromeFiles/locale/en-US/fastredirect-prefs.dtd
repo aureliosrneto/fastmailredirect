@@ -1,0 +1,13 @@
+<!ENTITY fastredirectPrefs.title "Preferences for Fast Mail Redirect">
+<!ENTITY fastredirectPrefs.enabled.groupbox.label "Enabled / Disabled">
+<!ENTITY fastredirectPrefs.enabled.checkbox.label "Enable/Disable Fast Mail Redirect">
+<!ENTITY fastredirectPrefs.enabled.checkbox.tooltip "If you mark the checkbox, this extension will be enabled, otherwhise it will be disabled">
+<!ENTITY fastredirectPrefs.statusbar.checkbox.label "Show status of this extension in status bar">
+<!ENTITY fastredirectPrefs.statusbar.checkbox.tooltip "If you mark this checkbox, the status of this extension will be shown in the status bar">
+<!ENTITY fastredirectPrefs.mailaddress.groupbox.label "Fast Redirect Mail Addresses">
+<!ENTITY fastredirectPrefs.mailaddress1.label "Mail address 1: ">
+<!ENTITY fastredirectPrefs.mailaddress2.label "Mail address 2: ">
+<!ENTITY fastredirectPrefs.mailaddress3.label "Mail address 3: ">
+<!ENTITY fastredirectPrefs.mailaddress4.label "Mail address 4: ">
+<!ENTITY fastredirectPrefs.mailaddress5.label "Mail address 5: ">
+<!ENTITY fastredirectPrefs.mailaddress.tooltip "In this textbox, you can fill in a mail address, which should be shown in the mail header field">

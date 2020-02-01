@@ -1,0 +1,18 @@
+CHANGELOG FastMailRedirect
+
+
+V 0.3.5:
+- Bug Fix:
+  call fastredirectPrefObserver.register() after event 'messagepane-loaded'
+  encapsulated writing to the status bar in a try-catch-statement
+- Fixed warnings in the js-console.
+
+V 0.3.4:
+-------------
+- updated compatibility with versions 1.5.0.* of Thunderbird
+- added: TODOS file
+
+
+V 0.3.3:
+-------------
+- Fixed bug with dependency of msgHdrViewOverlay.xul

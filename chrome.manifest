@@ -1,0 +1,10 @@
+content		fastredirect			chrome/chromeFiles/content/
+
+locale		fastredirect	en-US	chrome/chromeFiles/locale/en-US/
+locale		fastredirect	de-DE	chrome/chromeFiles/locale/de-DE/
+locale		fastredirect	it-IT	chrome/chromeFiles/locale/it-IT/
+
+skin		fastredirect	classic	chrome/chromeFiles/skin/classic/
+
+overlay chrome://messenger/content/messenger.xul chrome://fastredirect/content/fastredirect-statusbar.xul
+overlay chrome://messenger/content/msgHdrViewOverlay.xul chrome://fastredirect/content/fastredirect-overlay.xul

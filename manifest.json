@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "applications": {
+    "gecko": {
+      "id": "{3550f703-e582-4d05-9a08-453d09bdfdc6}",
+      "strict_min_version": "68.0"
+    }
+  },
+  "name": "Fast Mail Redirect",
+  "description": "Allows fast redirection of mails - Based on Adrian Loetscher Version",
+  "author": "Aurelio de S Ribeiro Neto",
+  "version": "1.0.0",
+  "homepage_url": "http://www.mpc.com.br/",
+  "legacy": {
+    "type": "xul",
+    "options": {
+      "page": "chrome://fastredirect/content/fastredirect-prefs.xul",
+      "open_in_tab": true
+    }
+  },
+  "icons": {
+    "32": "/chrome/chromeFiles/skin/classic/fastredirect-icon.png",
+    "64": "/chrome/chromeFiles/skin/classic/fastredirect-icon.png"
+  }
+}

@@ -1,0 +1,13 @@
+﻿<!ENTITY fastredirectPrefs.title "Opzioni di Fast Mail Redirect">
+<!ENTITY fastredirectPrefs.enabled.groupbox.label "Generali">
+<!ENTITY fastredirectPrefs.enabled.checkbox.label "Attiva/Disattiva Fast Mail Redirect">
+<!ENTITY fastredirectPrefs.enabled.checkbox.tooltip "Selezionando questa opzione l&apos;estensione verrà attivata, altrimenti verrà disattivata">
+<!ENTITY fastredirectPrefs.statusbar.checkbox.label "Mostra lo stato dell&apos;estensione nella barra di stato">
+<!ENTITY fastredirectPrefs.statusbar.checkbox.tooltip "Selezionando questa opzione lo stato dell&apos;estensione verrà mostrato nella barra di stato">
+<!ENTITY fastredirectPrefs.mailaddress.groupbox.label "Indirizzi e-mail di Fast Mail Redirect">
+<!ENTITY fastredirectPrefs.mailaddress1.label "Indirizzo e-mail n° 1: ">
+<!ENTITY fastredirectPrefs.mailaddress2.label "Indirizzo e-mail n° 2: ">
+<!ENTITY fastredirectPrefs.mailaddress3.label "Indirizzo e-mail n° 3: ">
+<!ENTITY fastredirectPrefs.mailaddress4.label "Indirizzo e-mail n° 4: ">
+<!ENTITY fastredirectPrefs.mailaddress5.label "Indirizzo e-mail n° 5: ">
+<!ENTITY fastredirectPrefs.mailaddress.tooltip "In questa area di testo è possibile inserire un indirizzo e-mail, che dovrebbe essere mostrato nel campo d&apos;intestazione del messaggio">

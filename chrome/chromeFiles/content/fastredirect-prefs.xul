@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<?xml-stylesheet href="chrome://communicator/skin/communicator.css" type="text/css"?>
+<?xml-stylesheet href="chrome://messenger/skin/prefPanels.css" type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://fastredirect/locale/fastredirect-prefs.dtd">
+
+<dialog id="fastredirectPrefs" title="&fastredirectPrefs.title;"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        buttons="accept,cancel"
+        onload="fastredirectPrefs.onInit();"
+        ondialogaccept="return fastredirectPrefs.onAccept();"
+        ondialogcancel="return fastredirectPrefs.onCancel();">
+
+<script type="application/x-javascript" src="chrome://fastredirect/content/fastredirect-prefs.js"/>
+
+
+<groupbox id="fastredirectPrefsEnabledGroupbox">
+  <caption label="&fastredirectPrefs.enabled.groupbox.label;"/>
+  <separator class="thin"/>
+  <checkbox 
+	  id="fastredirectEnabled" 
+	  label="&fastredirectPrefs.enabled.checkbox.label;" 
+	  checked="true" 
+	  tooltiptext="&fastredirectPrefs.enabled.checkbox.tooltip;"
+  />
+  <checkbox 
+	  id="fastredirectShowInStatusBar" 
+	  label="&fastredirectPrefs.statusbar.checkbox.label;" 
+	  checked="true" 
+	  tooltiptext="&fastredirectPrefs.statusbar.checkbox.tooltip;"
+  />	
+  <separator class="thin"/>
+	  
+</groupbox>
+
+
+<groupbox>
+  
+  <caption label="&fastredirectPrefs.mailaddress.groupbox.label;"/>
+  
+  <separator class="thick"/>
+  
+ 
+  <grid flex="1">
+	<columns>
+	  <column />
+	  <column flex="1"/>
+	</columns>
+	
+	<rows>
+	
+	  <row>
+	    <label control="mailaddress1" value="&fastredirectPrefs.mailaddress1.label;"/>
+	    <textbox id="mailaddress1" size="30" tooltiptext="&fastredirectPrefs.mailaddress.tooltip;"/>
+	  </row>
+	  <row>
+	    <label control="mailaddress2" value="&fastredirectPrefs.mailaddress2.label;"/>
+	    <textbox id="mailaddress2" size="30" tooltiptext="&fastredirectPrefs.mailaddress.tooltip;"/>
+	  </row>
+	  <row>
+	    <label control="mailaddress3" value="&fastredirectPrefs.mailaddress3.label;"/>
+	    <textbox id="mailaddress3" size="30" tooltiptext="&fastredirectPrefs.mailaddress.tooltip;"/>
+	  </row>
+	  <row>
+	    <label control="mailaddress4" value="&fastredirectPrefs.mailaddress4.label;"/>
+	    <textbox id="mailaddress4" size="30" tooltiptext="&fastredirectPrefs.mailaddress.tooltip;"/>
+	  </row>
+	  <row>
+	    <label control="mailaddress5" value="&fastredirectPrefs.mailaddress5.label;"/>
+	    <textbox id="mailaddress5" size="30" tooltiptext="&fastredirectPrefs.mailaddress.tooltip;"/>
+	  </row>		  
+	  	  
+	</rows>
+	
+  </grid> 
+  <separator class="thick"/>
+  
+</groupbox>
+</dialog>

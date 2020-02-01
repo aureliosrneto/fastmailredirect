@@ -1,0 +1,24 @@
+Planned features for the next major release
+---------------------------------------------------------------------------
+
+
+* Installation: Check, if the extension MailRedirect by Pawel Krzesniak is 
+  installed. If not, then give a warning.
+
+* A true "one click redirect". 
+  Click on the e-mail address and send the message without 
+  any additional steps by the user.
+	
+* automatic disposition of message. After clicking on the message, 
+  move the message to another mailbox.
+	
+* one click by icon. These iconic representation of address 
+  instead of explicit address.
+	
+* One click by 'Name'. Use the name displayed (if any) in the card/list in the Address Book instead of explicit address?
+	
+* standard configuration set up. If this feature is deployed 
+  across an organization, it would be nice to give the administrators 
+  the ability to install a standard set of addresses automatically as 
+  part of the installation process. This could either be by rebuilding 
+  the xpi file with standard data or a separate configuration file.

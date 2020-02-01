@@ -1,0 +1,13 @@
+<!ENTITY fastredirectPrefs.title "Einstellungen für Fast Mail Redirect">
+<!ENTITY fastredirectPrefs.enabled.groupbox.label "Aktiviert / Deaktiviert">
+<!ENTITY fastredirectPrefs.enabled.checkbox.label "Aktiviere / Deaktiviere Fast Mail Redirect">
+<!ENTITY fastredirectPrefs.enabled.checkbox.tooltip "Wenn Sie diese Checkbox markieren, dann wird die Erweiterung aktiviert, sonst wird sie deaktiviert">
+<!ENTITY fastredirectPrefs.statusbar.checkbox.label "Status der Erweiterung in der Statusbar zeigen">
+<!ENTITY fastredirectPrefs.statusbar.checkbox.tooltip "Wenn Sie diese Checkbox markieren, dann wird der Status der Extension in der Statusbar angezeigt.">
+<!ENTITY fastredirectPrefs.mailaddress.groupbox.label "Fast Redirect Mail Addressen">
+<!ENTITY fastredirectPrefs.mailaddress1.label "Mail-Addresse 1: ">
+<!ENTITY fastredirectPrefs.mailaddress2.label "Mail-Addresse 2: ">
+<!ENTITY fastredirectPrefs.mailaddress3.label "Mail-Addresse 3: ">
+<!ENTITY fastredirectPrefs.mailaddress4.label "Mail-Addresse 4: ">
+<!ENTITY fastredirectPrefs.mailaddress5.label "Mail-Addresse 5: ">
+<!ENTITY fastredirectPrefs.mailaddress.tooltip "In dieser Textbox können Sie eine Mailadresse eintragen, welche diese Extension im Header-Bereich anzeigen soll.">
